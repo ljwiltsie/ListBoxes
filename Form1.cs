@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace ListBoxes
 {
-    public partial class Form1 : Form
+    public partial class ListBox : Form
     {
-        public Form1()
+        public ListBox()
         {
             InitializeComponent();
         }
+
+
     }
 }
