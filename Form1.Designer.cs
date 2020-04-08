@@ -70,45 +70,54 @@
             // 
             // btnNewNums
             // 
-            this.btnNewNums.Location = new System.Drawing.Point(86, 60);
+            this.btnNewNums.Location = new System.Drawing.Point(85, 60);
+            this.btnNewNums.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnNewNums.Name = "btnNewNums";
             this.btnNewNums.Size = new System.Drawing.Size(75, 23);
             this.btnNewNums.TabIndex = 2;
             this.btnNewNums.Text = "New List";
             this.btnNewNums.UseVisualStyleBackColor = true;
+            this.btnNewNums.Click += new System.EventHandler(this.btnNewNums_Click);
             // 
             // btnSortNums
             // 
             this.btnSortNums.Location = new System.Drawing.Point(167, 60);
+            this.btnSortNums.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSortNums.Name = "btnSortNums";
             this.btnSortNums.Size = new System.Drawing.Size(75, 23);
             this.btnSortNums.TabIndex = 3;
             this.btnSortNums.Text = "Sort";
             this.btnSortNums.UseVisualStyleBackColor = true;
+            this.btnSortNums.Click += new System.EventHandler(this.btnSortNums_Click);
             // 
             // btnNewHoreos
             // 
             this.btnNewHoreos.Location = new System.Drawing.Point(336, 60);
+            this.btnNewHoreos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnNewHoreos.Name = "btnNewHoreos";
             this.btnNewHoreos.Size = new System.Drawing.Size(75, 23);
             this.btnNewHoreos.TabIndex = 4;
             this.btnNewHoreos.Text = "New List";
             this.btnNewHoreos.UseVisualStyleBackColor = true;
+            this.btnNewHoreos.Click += new System.EventHandler(this.btnNewHoreos_Click);
             // 
             // btnSortHeroes
             // 
             this.btnSortHeroes.Location = new System.Drawing.Point(417, 60);
+            this.btnSortHeroes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSortHeroes.Name = "btnSortHeroes";
             this.btnSortHeroes.Size = new System.Drawing.Size(75, 23);
             this.btnSortHeroes.TabIndex = 5;
             this.btnSortHeroes.Text = "Sort";
             this.btnSortHeroes.UseVisualStyleBackColor = true;
+            this.btnSortHeroes.Click += new System.EventHandler(this.btnSortHeroes_Click);
             // 
             // lstNumbers
             // 
             this.lstNumbers.FormattingEnabled = true;
             this.lstNumbers.ItemHeight = 16;
-            this.lstNumbers.Location = new System.Drawing.Point(86, 89);
+            this.lstNumbers.Location = new System.Drawing.Point(85, 89);
+            this.lstNumbers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lstNumbers.Name = "lstNumbers";
             this.lstNumbers.Size = new System.Drawing.Size(156, 148);
             this.lstNumbers.TabIndex = 6;
@@ -118,6 +127,7 @@
             this.lstHeroes.FormattingEnabled = true;
             this.lstHeroes.ItemHeight = 16;
             this.lstHeroes.Location = new System.Drawing.Point(336, 89);
+            this.lstHeroes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lstHeroes.Name = "lstHeroes";
             this.lstHeroes.Size = new System.Drawing.Size(156, 148);
             this.lstHeroes.TabIndex = 7;
@@ -152,7 +162,7 @@
             // lblHeroRemove
             // 
             this.lblHeroRemove.AutoSize = true;
-            this.lblHeroRemove.Location = new System.Drawing.Point(333, 291);
+            this.lblHeroRemove.Location = new System.Drawing.Point(333, 290);
             this.lblHeroRemove.Name = "lblHeroRemove";
             this.lblHeroRemove.Size = new System.Drawing.Size(193, 17);
             this.lblHeroRemove.TabIndex = 11;
@@ -161,42 +171,51 @@
             // btnRemoveAllNums
             // 
             this.btnRemoveAllNums.Location = new System.Drawing.Point(167, 260);
+            this.btnRemoveAllNums.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRemoveAllNums.Name = "btnRemoveAllNums";
-            this.btnRemoveAllNums.Size = new System.Drawing.Size(94, 23);
+            this.btnRemoveAllNums.Size = new System.Drawing.Size(93, 23);
             this.btnRemoveAllNums.TabIndex = 12;
             this.btnRemoveAllNums.Text = "Remove All";
             this.btnRemoveAllNums.UseVisualStyleBackColor = true;
+            this.btnRemoveAllNums.Click += new System.EventHandler(this.btnRemoveAllNums_Click);
             // 
             // btnRemoveNum
             // 
-            this.btnRemoveNum.Location = new System.Drawing.Point(86, 260);
+            this.btnRemoveNum.Location = new System.Drawing.Point(85, 260);
+            this.btnRemoveNum.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRemoveNum.Name = "btnRemoveNum";
             this.btnRemoveNum.Size = new System.Drawing.Size(75, 23);
             this.btnRemoveNum.TabIndex = 13;
             this.btnRemoveNum.Text = "Remove";
             this.btnRemoveNum.UseVisualStyleBackColor = true;
+            this.btnRemoveNum.Click += new System.EventHandler(this.btnRemoveNum_Click);
             // 
             // btnAddHero
             // 
             this.btnAddHero.Location = new System.Drawing.Point(451, 260);
+            this.btnAddHero.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAddHero.Name = "btnAddHero";
             this.btnAddHero.Size = new System.Drawing.Size(75, 23);
             this.btnAddHero.TabIndex = 14;
             this.btnAddHero.Text = "Add";
             this.btnAddHero.UseVisualStyleBackColor = true;
+            this.btnAddHero.Click += new System.EventHandler(this.btnAddHero_Click);
             // 
             // btnRemoveHero
             // 
             this.btnRemoveHero.Location = new System.Drawing.Point(451, 315);
+            this.btnRemoveHero.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRemoveHero.Name = "btnRemoveHero";
             this.btnRemoveHero.Size = new System.Drawing.Size(75, 23);
             this.btnRemoveHero.TabIndex = 15;
             this.btnRemoveHero.Text = "Remove";
             this.btnRemoveHero.UseVisualStyleBackColor = true;
+            this.btnRemoveHero.Click += new System.EventHandler(this.btnRemoveHero_Click);
             // 
             // txtRemoveHero
             // 
             this.txtRemoveHero.Location = new System.Drawing.Point(336, 316);
+            this.txtRemoveHero.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtRemoveHero.Name = "txtRemoveHero";
             this.txtRemoveHero.Size = new System.Drawing.Size(109, 22);
             this.txtRemoveHero.TabIndex = 16;
@@ -204,6 +223,7 @@
             // txtAddHero
             // 
             this.txtAddHero.Location = new System.Drawing.Point(336, 261);
+            this.txtAddHero.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtAddHero.Name = "txtAddHero";
             this.txtAddHero.Size = new System.Drawing.Size(109, 22);
             this.txtAddHero.TabIndex = 17;
@@ -231,8 +251,10 @@
             this.Controls.Add(this.btnNewNums);
             this.Controls.Add(this.lblHeroes);
             this.Controls.Add(this.lblNums);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ListBox";
             this.Text = "Using Lists";
+            this.Load += new System.EventHandler(this.ListBox_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -247,7 +269,6 @@
         private System.Windows.Forms.Button btnNewHoreos;
         private System.Windows.Forms.Button btnSortHeroes;
         private System.Windows.Forms.ListBox lstNumbers;
-        private System.Windows.Forms.ListBox lstHeroes;
         private System.Windows.Forms.Label lblNumRemove;
         private System.Windows.Forms.Label lblHeroAdd;
         private System.Windows.Forms.Label lblStatus;
@@ -258,6 +279,7 @@
         private System.Windows.Forms.Button btnRemoveHero;
         private System.Windows.Forms.TextBox txtRemoveHero;
         private System.Windows.Forms.TextBox txtAddHero;
+        private System.Windows.Forms.ListBox lstHeroes;
     }
 }
 
