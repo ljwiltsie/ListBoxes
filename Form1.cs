@@ -92,11 +92,21 @@ namespace ListBoxes
         private void btnRemoveHero_Click(object sender, EventArgs e)
         {
             txtRemoveHero.Text.Trim();
-            heroes.RemoveAt(heroes.FindIndex(n => n.Equals((string)txtRemoveHero.Text, StringComparison.OrdinalIgnoreCase)));
+            int location = heroes.FindIndex(n => n.Equals((string)txtRemoveHero.Text, StringComparison.OrdinalIgnoreCase));
+            if (location >= 0)
+            {
+                heroes.RemoveAt(location);
+                lstHeroes.DataSource = null;
+                lstHeroes.DataSource = heroes;
+                lblStatus.Text = $"Status: {txtRemoveHero.Text} was removed";
+            }
+            else
+            {
+                lblStatus.Text = $"Status: {txtRemoveHero.Text} was not present. Please enter a hero present on the list.";
+            }
+            
 
-            lstHeroes.DataSource = null;
-            lstHeroes.DataSource = heroes;
-            lblStatus.Text = $"Status: {txtRemoveHero.Text} was removed";
+            
         }
 
         private void btnAddHero_Click(object sender, EventArgs e)
